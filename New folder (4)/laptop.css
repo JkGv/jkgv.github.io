@@ -1,0 +1,65 @@
+.features{
+    display: inline-block;
+    font-size: small;
+}
+.features2{
+    display: inline-block;
+    font-size: small;
+    padding:70px 0px 0px 50px;
+}
+.lapi1{
+    width: revert;
+    display: flex;
+    justify-content: flex-start;
+    max-height: 200px;
+    background: radial-gradient(#525252,#070707);
+    color:wheat;
+}
+img{
+    border: 5px solid black;
+}
+
+.btm{
+    background-color: greenyellow;
+    font-size: 20px;
+    padding: 4px 25px;
+    border:solid 2px;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+}
+.btm:hover{
+    background-color: black;
+    color: red;
+}
+.hading{
+    text-align: center;
+    font-size: large;
+}
+.lapi2{
+    width: revert;
+    display: flex;
+    justify-content: flex-end;
+    max-height: 200px;
+    background:radial-gradient(#ffffff,#e1ffb9);
+}
+.logo{
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 200px;
+    max-height: auto;
+}
+.hading{
+    font-size: 25px;
+    margin-bottom: 5px;
+    margin-bottom: 5px;
+}
+.secondpic{
+    height: 178px;
+    width: 310px;
+    margin-right: 80px;
+}
+.thirdpic{
+    height: 178px;
+    width: 310px;
+    border: 5px solid white;
+}
