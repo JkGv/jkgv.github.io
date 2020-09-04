@@ -1,0 +1,57 @@
+.specs-img{
+    max-height: 500px;
+}
+
+table{
+    width: 100%;
+
+    tr{
+        font-family: $font-2;
+        font-size: 18px;
+
+        &:hover{
+            background-color: $red;
+            color: white;
+        }
+    }
+}
+
+.specs{
+    background: $light-gradient;
+    padding: 60px 0px 40px 0px;
+
+    h1{
+        font-family: $font-1;
+        font-weight: bold;
+        margin-top: 0px;
+    }
+
+    a{
+        margin: 15px 0px 0px 0px;
+
+        &:hover{
+            background-color: $red;
+        }
+    }
+}
+
+.table-main{
+    font-weight: 600;
+}
+
+.cart-btn{
+    font-family: $font-2;
+    font-size: 18px;
+}
+
+@media screen and (max-width:768px){
+    .specs-img-div{
+        text-align: center;
+    }
+
+    .specs-table{
+        h1{
+            text-align: center;
+        }
+    }
+}

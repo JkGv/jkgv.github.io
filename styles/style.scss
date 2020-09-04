@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Dosis:wght@500&display=swap");
+$red : #f54538;
+$font-1 : 'Architects Daughter', cursive;
+$font-2 : 'Dosis', sans-serif;
+$dark-gradient : radial-gradient(#525252, #070707);
+$light-gradient : radial-gradient(#ffffff, #e1ffb9);
+
+
+@import 'scss/navbar';
+@import 'scss/homepage';
+@import 'scss/specs-light';
+@import 'scss/specs-dark';
+
+

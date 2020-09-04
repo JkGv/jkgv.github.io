@@ -1,0 +1,51 @@
+.homepage{
+    display: flex;
+    color: rgb(248, 248, 248);
+    background: $dark-gradient;
+}
+
+.homepage-smartphone{
+    max-height:550px;
+    padding: 100px 0px 0px 30px;
+}
+
+.homepage-heading{
+    font-family: $font-1;
+    font-weight: bold;
+    margin: 50px 0px;
+}
+
+.homepage-des{
+    font-family: $font-2;
+    font-size: 18px;
+    padding: 370px 0px 0px 0px;
+
+    a{
+        font-weight: bold;
+        padding: 2px 10px;
+        margin-right: 110px;
+        color: $red;
+
+        &:hover{
+            background-color: $red;
+            border-radius: 2rem;
+            color: white;
+        }
+    }
+
+    h2{
+        font-family: $font-2;
+        font-size: 26px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .homepage-des, .homepage-heading, .homepage-smartphone, .homepage-img{
+        padding: 0px;
+        text-align: center;
+ 
+        a{
+            margin: 0px;
+        }
+    }
+}
